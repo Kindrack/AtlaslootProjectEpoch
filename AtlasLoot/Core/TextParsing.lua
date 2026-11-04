@@ -338,6 +338,8 @@ function AtlasLoot_FixText(text)
         text = gsub(text, "#b4#", BabbleFaction["Warsong Outriders"]);
         text = gsub(text, "#b5#", BabbleFaction["The League of Arathor"]);
         text = gsub(text, "#b6#", BabbleFaction["The Defilers"]);
+        text = gsub(text, "#b7#", BabbleEpoch["Grumbscrews Crew"]);
+        text = gsub(text, "#b8#", BabbleEpoch["Yeyewata'thraze"]);
     end
 
     -- BRD Arena Mini Bosses
@@ -1184,6 +1186,7 @@ function AtlasLoot_FixText(text)
         text = gsub(text, "#ab#", "|TInterface\\Icons\\INV_Jewelry_Amulet_07:0|t");
         text = gsub(text, "#av#", "|TInterface\\Icons\\INV_Jewelry_Necklace_21:0|t");
         text = gsub(text, "#eos#", "|TInterface\\Icons\\Spell_Nature_EyeOfTheStorm:0|t");
+        text = gsub(text, "#gji#", "|TInterface\\Icons\\Achievement_Dungeon_Gundrak_25man:0|t");
         text = gsub(text, "#arena#", "|TInterface\\PVPFrame\\PVP-ArenaPoints-Icon:14:14:2:-1|t");
         text = gsub(text, "#markthrallmar#", "|TInterface\\Icons\\INV_Misc_Token_Thrallmar:0|t");
         text = gsub(text, "#markhhold#", "|TInterface\\Icons\\INV_Misc_Token_HonorHold:0|t");

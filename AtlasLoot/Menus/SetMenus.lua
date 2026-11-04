@@ -15,7 +15,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon 1/2 Sets"], ""};
 		{ 4, "OldKeys", "inv_misc_key_14", "=ds=Keys", ""};
 		{ 6, "ShopCosmetics", "inv_rod_enchantedeternium", "=ds=Shop Cosmetics", ""};
-		{ 8, "EpochChallenges", "inv_misc_bone_skull_02", "=ds=Challenge Rewards", ""};
+		{ 8, "EpochChallenges1", "inv_misc_bone_skull_02", "=ds=Challenge Rewards", ""};
 		{ 17, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..BabbleEpoch["Tier Sets"], ""};
 		{ 23, "Abandoned1", "inv_misc_questionmark", "=ds="..BabbleEpoch["Probably Abandoned Epoch Loot"], ""};
 	};
@@ -29,8 +29,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["MOUNTMENU"] = {
-		{ 3, "MountsAlliance1", "achievement_pvp_a_16", "=ds="..AL["Alliance Mounts"], ""};
 		{ 1, "MountsDrop1", "ability_mount_undeadhorse", "=ds="..BabbleEpoch["Mount Drops"], ""};
+		{ 3, "MountsAlliance1", "achievement_pvp_a_16", "=ds="..AL["Alliance Mounts"], ""};
+		{ 5, "MountsPvP1", "ability_mount_polarbear_white", "=ds="..AL["PvP Mounts"], ""};
 		{ 16, "MountsShop", "inv_misc_coin_01", "=ds="..BabbleEpoch["Shop Mounts"], ""};
 		{ 18, "MountsHorde1", "achievement_pvp_h_16", "=ds="..AL["Horde Mounts"], ""};
 		Back = "SETMENU";

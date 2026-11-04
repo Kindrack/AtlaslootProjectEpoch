@@ -19,8 +19,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		---------------------
 
 	AtlasLoot_Data["WSGMisc"] = {
-		{ 1, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver# 2 #faction#", ""};
-		{ 2, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver# 2 #faction#", ""};
+		{ 1, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver#", ""};
+		{ 2, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver#", ""};
 		{ 4, 19060, "", "=q1=Enriched Ration", "=ds=", "20 #silver#", ""};
 		{ 5, 19061, "", "=q1=Iron Ration", "=ds=", "15 #silver#", ""};
 		{ 6, 19062, "", "=q1=Field Ration", "=ds=", "10 #silver#", ""};
@@ -28,8 +28,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 61541, "", "=q1=Silverwing Supply Box", "=ds=", "3 #wsg#", ""};
 		{ 10, 61538, "", "=q3=Silverwing Insignia", "=ds=", "9 #wsg#", ""};
 		{ 11, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=", "15 #wsg#", ""};
-		{ 16, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver# 5 #faction#", ""};
-		{ 17, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver# 5 #faction#", ""};
+		{ 16, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver#", ""};
+		{ 17, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver#", ""};
 		{ 19, 19066, "", "=q1=Battlefield Runecloth Bandage", "=ds=", "20 #silver#", ""};
 		{ 20, 19067, "", "=q1=Battlefield Mageweave Bandage", "=ds=", "15 #silver#", ""};
 		{ 21, 19068, "", "=q1=Battlefield Silk Bandage", "=ds=", "10 #silver#", ""};
@@ -37,10 +37,37 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 24, 61543, "", "=q1=Warsong Supply Box", "=ds=", "3 #wsg#", ""};
 		{ 25, 61539, "", "=q3=Warsong Insignia", "=ds=", "9 #wsg#", ""};
 		{ 26, 19505, "", "=q1=Warsong Battle Tabard", "=ds=", "15 #wsg#", ""};
+		{ 13, 20558, "", "=q6=Warson Gulch Mark of Honor", "", "#m17#", ""};
+		Back = "PVPMENU";
+	};
+		-----------------------
+		--- Gillijim's Isle ---
+		-----------------------
+
+	AtlasLoot_Data["GJIMisc"] = {
+		{ 1, 17348, "", "=q1=Major Healing Draught", "=ds=", "10 #silver#", ""};
+		{ 2, 17351, "", "=q1=Major Mana Draught", "=ds=", "10 #silver#", ""};
+		{ 4, 19060, "", "=q1=Enriched Ration", "=ds=", "20 #silver#", ""};
+		{ 5, 19061, "", "=q1=Iron Ration", "=ds=", "15 #silver#", ""};
+		{ 8, 0, "INV_BannerPVP_02", "=q6=#m7#", "=q5=#b7#"};
+		{ 9, 90970, "", "=q1=Grumbscrew Supply Box", "=ds=", "3 #gji#", ""};
+		{ 10, 90964, "", "=q3=Medallion of Gnomeregan", "=ds=", "9 #gji#", ""};
+		{ 11, 45578, "", "=q1=Gnomeregan Tabard", "=ds=", "15 #gji#", ""};
+		{ 12, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=", "50 #gji#", ""};
+		{ 16, 17349, "", "=q1=Superior Healing Draught", "=ds=", "5 #silver#", ""};
+		{ 17, 17352, "", "=q1=Superior Mana Draught", "=ds=", "5 #silver#", ""};
+		{ 19, 19066, "", "=q1=Battlefield Runecloth Bandage", "=ds=", "20 #silver#", ""};
+		{ 20, 19067, "", "=q1=Battlefield Mageweave Bandage", "=ds=", "15 #silver#", ""};
+		{ 23, 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b8#"};
+		{ 24, 90971	, "", "=q1=Yeyewata Supply Box", "=ds=", "3 #gji#", ""};
+		{ 25, 90965, "", "=q3=Medallion of Sen'jin", "=ds=", "15 #gji#", ""};
+		{ 26, 45582, "", "=q1=Sen'jin Tabard", "=ds=", "15 #gji#", ""};
+		{ 27, 45593, "", "=q4=Darkspear Raptor", "=ds=", "50 #gji#", ""};		
+		{ 14, 29024, "", "=q6=Gillijim's Isle Mark of Honor", "", "#m17#", ""};
 		Back = "PVPMENU";
 	};
 
-    --------------------------------
+	--------------------------------
 	--- PvP Level 60 Accessories ---
 	--------------------------------
 
@@ -50,25 +77,25 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 18606, "", "=q1=Alliance Battle Standard", "=ds=", "5000 #honor#", ""};
 
 		{ 6, 0, "INV_Box_01", "=q6=PvP Crafting Mats", ""};
-		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "6000 #honor#", ""};
-		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "6000 #honor#", ""}; 
-		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "6000 #honor#", ""};
-		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "6000 #honor#", ""}; 
-		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "6000 #honor#", ""}; 
-		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "6000 #honor#", ""}; 
-		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "6000 #honor#", ""};
+		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "50000 #honor#", ""};
+		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "50000 #honor#", ""}; 
+		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "50000 #honor#", ""};
+		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "50000 #honor#", ""}; 
+		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "50000 #honor#", ""}; 
+		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "50000 #honor#", ""}; 
+		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "50000 #honor#", ""};
 
 		{16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
 		{17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
 		{19, 90534, "", "=q1=Crate of Supplies", "=ds=", "5000 #honor#", ""};
 
-		{22, 90535, "", "=q1=Leather Armor Components", "=ds=", ""};
-		{23, 90536, "", "=q1=Mail Armor Components", "=ds=", ""};
-		{24, 90537, "", "=q1=Cloth Armor Components", "=ds=", ""};
-		{25, 90538, "", "=q1=Metal Armor Components", "=ds=", ""};
-		{26, 90539, "", "=q1=Trinket Components", "=ds=", ""};
-		{27, 90540, "", "=q1=Complicated Components", "=ds=", ""};
-		{28, 90541, "", "=q1=Magical Armor Components", "=ds=", ""};
+		{22, 90535, "", "=q1=Leather Armor Components", "=ds=", "100000 #honor#", ""};
+		{23, 90536, "", "=q1=Mail Armor Components", "=ds=", "100000 #honor#", ""};
+		{24, 90537, "", "=q1=Cloth Armor Components", "=ds=", "100000 #honor#", ""};
+		{25, 90538, "", "=q1=Metal Armor Components", "=ds=", "100000 #honor#", ""};
+		{26, 90539, "", "=q1=Trinket Components", "=ds=", "100000 #honor#", ""};
+		{27, 90540, "", "=q1=Complicated Components", "=ds=", "100000 #honor#", ""};
+		{28, 90541, "", "=q1=Magical Armor Components", "=ds=", "100000 #honor#", ""};
 		Back = "PVPMENU";
 	};
 
@@ -78,25 +105,25 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 18607, "", "=q1=Horde Battle Standard", "=ds=", "5000 #honor#", ""};
 		
 		{ 6, 0, "INV_Box_01", "=q6=PvP Crafting Mats", ""};
-		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "6000 #honor#", ""};
-		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "6000 #honor#", ""};
-		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "6000 #honor#", ""};
-		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "6000 #honor#", ""};
-		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "6000 #honor#", ""};
-		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "6000 #honor#", ""};
-		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "6000 #honor#", ""};
+		{ 7, 90542, "", "=q2=Pattern: Leather Armor Components", "=ds=", "50000 #honor#", ""};
+		{ 8, 90543, "", "=q2=Pattern: Mail Armor Components", "=ds=", "50000 #honor#", ""};
+		{ 9, 90544, "", "=q2=Pattern: Cloth Armor Components", "=ds=", "50000 #honor#", ""};
+		{10, 90545, "", "=q2=Plans: Metal Armor Components", "=ds=", "50000 #honor#", ""};
+		{11, 90546, "", "=q2=Recipe: Trinket Components", "=ds=", "50000 #honor#", ""};
+		{12, 90547, "", "=q2=Schematic: Complicated Components", "=ds=", "50000 #honor#", ""};
+		{13, 90548, "", "=q2=Formula: Magical Components", "=ds=", "50000 #honor#", ""};
 
 		{16, 18839, "", "=q1=Combat Healing Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
 		{17, 18841, "", "=q1=Combat Mana Potion", "=ds=#e2#", "10 #silver# 25 #honor#", ""};
 		{19, 90534, "", "=q1=Crate of Supplies", "=ds=", "5000 #honor#", ""};
 
-		{22,90535, "", "=q1=Leather Armor Components", "=ds=", ""};
-		{23,90536, "", "=q1=Mail Armor Components", "=ds=", ""};
-		{24,90537, "", "=q1=Cloth Armor Components", "=ds=", ""};
-		{25,90538, "", "=q1=Metal Armor Components", "=ds=", ""};
-		{26,90539, "", "=q1=Trinket Components", "=ds=", ""};
-		{27,90540, "", "=q1=Complicated Components", "=ds=", ""};
-		{28,90541, "", "=q1=Magical Armor Components", "=ds=", ""};
+		{22, 90535, "", "=q1=Leather Armor Components", "=ds=", "100000 #honor#", ""};
+		{23, 90536, "", "=q1=Mail Armor Components", "=ds=", "100000 #honor#", ""};
+		{24, 90537, "", "=q1=Cloth Armor Components", "=ds=", "100000 #honor#", ""};
+		{25, 90538, "", "=q1=Metal Armor Components", "=ds=", "100000 #honor#", ""};
+		{26, 90539, "", "=q1=Trinket Components", "=ds=", "100000 #honor#", ""};
+		{27, 90540, "", "=q1=Complicated Components", "=ds=", "100000 #honor#", ""};
+		{28, 90541, "", "=q1=Magical Armor Components", "=ds=", "100000 #honor#", ""};
 		Back = "PVPMENU";
 	};
 
@@ -990,7 +1017,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["Epochpvpworld"] = {
-		{ 1, 62241, "", "=q6=Bloody Token", "", "", ""};
+		{ 1, 62241, "", "=q6=Bloody Token", "", "#m17#", ""};
 		{ 3, 62248, "", "=q3=Title Scroll: The Bloodthirsty", "=ds=", "1000 #epvpw#", ""};
 		{ 4, 60152, "", "=q3=Glyph of Bloody Retreat", "=ds=", "500 #epvpw#", ""};
 		{ 5, 49052, "", "=q3=Tabard of Savagery", "=ds=", "500 #epvpw#", ""};

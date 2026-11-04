@@ -709,7 +709,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	--Hide UI objects so that only needed ones are shown
 	for i = 1, 30, 1 do
         getglobal("AtlasLootItem_"..i.."_Unsafe"):Hide();
-		getglobal("AtlasLootMenuItem_"..i):Hide();
+        getglobal("AtlasLootMenuItem_"..i):Hide();
         getglobal("AtlasLootItem_"..i):Hide();
         getglobal("AtlasLootItem_"..i).itemID = 0;
         getglobal("AtlasLootItem_"..i).spellitemID = 0;

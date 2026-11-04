@@ -7,7 +7,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["PVPMENU"] = {
 		{ 1, "PvP60Accessories1_A", "inv_bannerpvp_02", "=ds="..BabbleEpoch["PvP Vendor/Battle Quartermaster"], ""};
 		{ 2, "EPOCHPVPSETMENU", "inv_chest_plate15", "=ds="..BabbleEpoch["Epoch PVP"], ""};
+		{ 3, "MountsPvP2", "ability_mount_polarbear_white", "=ds="..AL["PvP Mounts"], ""};
 		{ 16, "WSGMisc", "INV_Misc_Rune_07", "=ds="..BabbleEpoch["Misc. Vendor"], "=q5="..BabbleZone["Warsong Gulch"]};
+		{ 17, "GJIMisc", "achievement_dungeon_gundrak_25man", "=ds="..BabbleEpoch["Misc. Vendor"], "=q5="..BabbleEpoch["Gillijim's Isle"]};
 	};
 
 	AtlasLoot_Data["EPOCHPVPSETMENU"] = {

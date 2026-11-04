@@ -213,6 +213,7 @@ end
 	AtlasLoot_TableNames["ShadowfangKeep3"] = { BabbleZone["Shadowfang Keep"], "AtlasLootOriginalWoW" };
   -- The Stockade
 	AtlasLoot_TableNames["TheStockade"] = { BabbleZone["The Stockade"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["TheStockade2"] = { BabbleZone["The Stockade"], "AtlasLootOriginalWoW" };
   -- Stonetalon Caverns
 	AtlasLoot_TableNames["StonetalonCaverns"] = { BabbleEpoch["Stonetalon Caverns"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["StonetalonCaverns2"] = { BabbleEpoch["Stonetalon Caverns"], "AtlasLootOriginalWoW" };
@@ -577,7 +578,8 @@ end
 	AtlasLoot_TableNames["ShopCosmetics3"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["ShopCosmetics4"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
   -- Challenges
-	AtlasLoot_TableNames["EpochChallenges"] = { BabbleEpoch["Epoch Challenge Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochChallenges1"] = { BabbleEpoch["Epoch Challenge Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["EpochChallenges2"] = { BabbleEpoch["Epoch Challenge Rewards"], "AtlasLootOriginalWoW" };
   -- Toys
 	AtlasLoot_TableNames["ToysShop"] = { BabbleEpoch["Toys"].." - "..BabbleEpoch["Shop"], "AtlasLootOriginalWoW" };
   -- World Epics
@@ -641,6 +643,7 @@ end
   -- Misc Factions
 	AtlasLoot_TableNames["MiscFactions1"] = { BabbleEpoch["Centaur Clans"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MiscFactions2"] = { BabbleFaction["Wintersaber Trainers"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["MiscFactions3"] = { BabbleEpoch["Ravasaur Trainers"], "AtlasLootOriginalWoW" };
   -- Alterac Valley Factions
 	AtlasLoot_TableNames["AlteracFactions"] = { BabbleZone["Alterac Valley"], "AtlasLootOriginalWoW" };
   -- Argent Dawn
@@ -657,8 +660,8 @@ end
 	AtlasLoot_TableNames["Timbermaw"] = { BabbleFaction["Timbermaw Hold"], "AtlasLootOriginalWoW" };
   -- Wildhammer Clan
 	AtlasLoot_TableNames["WildhammerClan"] = { BabbleEpoch["Aerie Peak"], "AtlasLootOriginalWoW" };
-  -- Raventusk Tribe
-	AtlasLoot_TableNames["RaventuskTribe"] = { BabbleEpoch["Raventusk Tribe"], "AtlasLootOriginalWoW" };
+  -- Revantusk Tribe
+	AtlasLoot_TableNames["RevantuskTribe"] = { BabbleEpoch["Revantusk Tribe"], "AtlasLootOriginalWoW" };
   -- Ravenholdt
 	AtlasLoot_TableNames["Ravenholdt"] = { BabbleEpoch["Ravenholdt"], "AtlasLootOriginalWoW" };
   -- Smokywood
@@ -800,7 +803,9 @@ end
 	AtlasLoot_TableNames["WSGArmor_A"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSGAccessories_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Accessories"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSGWeapons_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Weapons"], "AtlasLootOriginalWoW" };  
-	AtlasLoot_TableNames["WSGArmor_H"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };  
+	AtlasLoot_TableNames["WSGArmor_H"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };
+	-- Gillijim's Isle
+	AtlasLoot_TableNames["GJIMisc"] = { BabbleEpoch["Gillijim's Isle"].." "..BabbleEpoch["Misc. Vendor"], "AtlasLootOriginalWoW" };
   -- World PvP
   -- Misc Other PvP
 	AtlasLoot_TableNames["PvP60Accessories1_A"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
